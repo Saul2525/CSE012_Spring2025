@@ -51,9 +51,8 @@ print(
 # Also, I was just thinking about something fun to write about here.
 if __name__ == "__main__":
     print(f"{CHARACTER_NAME} walks until he runs into a four-way intersection.\n")
-    user_input = input("Which direction would you like to go?")
+    user_input = input("Which direction would you like to go?\n")
 
-    print("")
     match user_input:
         case "left":
             print(
