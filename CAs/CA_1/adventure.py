@@ -41,7 +41,7 @@ HEALTH -= HEALTH_DECREASE
 STRENGTH += STRENGTH_BOOST
 print(f"Health decreased to {HEALTH} because {CHARACTER_NAME} encountered a monster.\n")
 print(
-    f"Strength increased to {STRENGTH} because {CHARACTER_NAME}"
+    f"Strength increased to {STRENGTH} because {CHARACTER_NAME} "
     f"found and drank a magical potion.\n"
 )
 
